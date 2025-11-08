@@ -64,15 +64,15 @@
     &--delete {
       width: 16px;
       height: 16px;
-      background-image: url('img/icons/close.svg');
+      background-image: url('/img/icons/close.svg');
       border: none;
     }
 
     &--decrease {
-      background-image: url('img/icons/minus.svg');
+      background-image: url('/img/icons/minus.svg');
 
       &--disabled {
-        background-image: url('img/icons/minus-disabled.svg');
+        background-image: url('/img/icons/minus-disabled.svg');
         border: 1px solid $secondary-gray;
         cursor: default;
       }
@@ -85,7 +85,7 @@
     }
 
     &--increase {
-      background-image: url('img/icons/plus.svg');
+      background-image: url('/img/icons/plus.svg');
 
       &:not(&--disabled) {
         &:hover {
