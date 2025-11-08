@@ -1,4 +1,4 @@
-# Nice Gadgets
+# Nice Gadgets 👌
 Project Description
 
 Nice Gadgets is a modern, responsive online store for smartphones, tablets, and accessories.
