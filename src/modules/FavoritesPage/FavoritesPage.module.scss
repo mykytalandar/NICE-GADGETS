@@ -1,0 +1,19 @@
+@use '/src/styles/main' as *;
+
+.favorites-page {
+  @include content-padding-inline;
+
+  &__title {
+    @extend %h2-style;
+
+    margin-top: 24px;
+
+    @include on-tablet {
+      margin-top: 40px;
+    }
+  }
+
+  &__quantity {
+    @extend %quantity-style;
+  }
+}
