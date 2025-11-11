@@ -45,7 +45,7 @@ export const Header: React.FC = () => {
             >
               <img
                 src="img/icons/close.svg"
-                alt="Nice Gadgets logo"
+                alt="Nice Gadgets icon"
                 className={header.header__icon}
               />
             </button>
@@ -56,7 +56,7 @@ export const Header: React.FC = () => {
             >
               <img
                 src="img/icons/burger-icon.svg"
-                alt="Nice Gadgets logo"
+                alt="Nice Gadgets icon"
                 className={header.header__icon}
               />
             </button>

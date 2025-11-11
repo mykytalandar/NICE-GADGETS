@@ -1,6 +1,6 @@
-import { ProductPreview } from 'types/ProductPreview';
+import { ProductPreview } from '../types/ProductPreview';
 import { client } from '../utils/fetchClient';
-import { ProductDetails } from 'types/ProductDetails';
+import { ProductDetails } from '../types/ProductDetails';
 
 export const getAllProducts = () => {
   return client.get<ProductPreview[]>('api/products.json');
